@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image:linear-gradient( rgba(0,0,0,.5) , rgba(0,0,0,.5)), url("../img/bg.png");
+    background-size: cover;
+}
+
+.main-container{
+    width: 1066px;
+    margin: 0 auto;
+}
+
+            /*-----------HEADER--------------*/
+.header {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.name-and-icon{
+    position: relative;
+}
+
+.name-and-icon a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+.orange-icon {
+    position: absolute;
+    visibility: hidden;
+    left: 0;
+}
+
+.milan {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    font-size: 30px;
+}
+
+.holidays {
+    position: absolute;
+    top: 28px;
+    left: 60px;
+    font-size: 20px;
+}
+
+.info {
+    color: #ffffff;
+    text-align: end;
+}
+
+.info p {
+    font-size: 18px;
+}
+                                    
+.name-and-icon:hover a {
+    color: #f26522;
+}
+
+.name-and-icon:hover .orange-icon{
+    visibility: visible;
+}
+
+               /*---------- CENTER CONTAINER ------ */
+.center-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 1066px;
+    padding: 5px;
+}
+
+.center-container >div {
+    width: 308px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+
+.center-container >div >p {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.item1, .item2, .item3 {
+    position: relative;
+    margin-bottom:60px;
+}
+.item4, .item5, .item6 {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.orange-salary-hover {
+    position: absolute;
+    bottom: -2px;
+    height: 60px;
+    width: 308px;
+    background-color: #f26522;
+    visibility: hidden;
+}
+
+.orange-from {
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.orange-euro {
+    position: absolute;
+    left: 26px;
+    top: 23px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.orange-salary-hover >a {
+    position: absolute;
+    bottom: 10px;
+    right: 26px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.orange-salary-hover >img {
+    position: absolute;
+    right: 8px;
+    bottom: 13px;
+}
+
+.cards:hover .orange-salary-hover {
+    visibility: visible;
+}
+.cards:hover >p{
+    color: #f26522;
+}
+                  /*---------------FOOTER--------------*/
+.footer {
+    width: 1077px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.footer >p {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
